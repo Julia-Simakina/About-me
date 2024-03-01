@@ -1,0 +1,15 @@
+.body {
+  margin: 0;
+}
+
+.header {
+  background-color: #eeeff1;
+  padding: 57px 402px;
+}
+
+.header__logo {
+  width: 85px;
+  height: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
