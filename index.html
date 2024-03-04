@@ -7,14 +7,119 @@
   <title>О себе</title>
   <link rel="icon" type="images/svg+xml" href="./images/WD.svg">
   <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
 </head>
 
 <body class="body">
   <header class="header">
-    <img src="./images/WD.svg" alt="Логотип" class="header__logo">
+    <div class="header__wrapper">
+      <a href="/" class="header__logo">
+        <img src="./images/WD.svg" alt="Логотип">
+      </a>
 
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li><a href="/" class="header__menu-item">ГЛАВНАЯ</a></li>
+          <li><a href="/" class="header__menu-item">ОБ АВТОРЕ</a></li>
+          <li> <a href="/" class="header__menu-item">РАБОТЫ</a></li>
+          <li> <a href="/" class="header__menu-item">ПРОЦЕСС</a></li>
+          <li> <a href="/" class="header__menu-item">КОНТАКТЫ</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <section class="promo"></section>
+  <section class="promo">
+    <img src="./images/frame.svg" alt="Ноутбук" class="promo__img">
+    <div class="promo__wrapper">
+      <h1 class="promo__title">Дизайн и верстка</h1>
+      <p class="promo__subtitle subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+        Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+      <button class="button" type="submit">НАПИСАТЬ МНЕ</button>
+    </div>
+  </section>
+  <section class="section section_bcg-white">
+    <h2 class="section__title">Обо мне</h2>
+    <p class="section__subtitle subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+      Lorem Ipsum
+      является стандартной
+      "рыбой" для текстов на латинице с начала XVI века.</p>
+  </section>
+  <section class="projects section section_bcg-blue">
+    <ul class="projects__list">
+      <li class="projects__item">
+        <img src="./images/project.svg" alt="" class="projects__icon">
+        <div class="projects__description">
+          <h3 class="projects__title">40+</h3>
+          <p class="projects__subtitle">проектов</p>
+        </div>
+      </li>
+
+      <li class="projects__item">
+        <img src="./images/project.svg" alt="" class="projects__icon">
+        <div class="projects__description">
+          <h3 class="projects__title">40+</h3>
+          <p class="projects__subtitle">проектов</p>
+        </div>
+      </li>
+
+      <li class="projects__item">
+        <img src="./images/project.svg" alt="" class="projects__icon">
+        <div class="projects__description">
+          <h3 class="projects__title">40+</h3>
+          <p class="projects__subtitle">проектов</p>
+        </div>
+      </li>
+
+      <li class="projects__item">
+        <img src="./images/project.svg" alt="" class="projects__icon">
+        <div class="projects__description">
+          <h3 class="projects__title">40+</h3>
+          <p class="projects__subtitle">проектов</p>
+        </div>
+      </li>
+
+      <li class="projects__item">
+        <img src="./images/project.svg" alt="" class="projects__icon">
+        <div class="projects__description">
+          <h3 class="projects__title">40+</h3>
+          <p class="projects__subtitle">проектов</p>
+        </div>
+      </li>
+
+      <li class="projects__item">
+        <img src="./images/project.svg" alt="" class="projects__icon">
+        <div class="projects__description">
+          <h3 class="projects__title">40+</h3>
+          <p class="projects__subtitle">проектов</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section class="skills section section_bcg-white">
+    <div class="skills__wrapper">
+      <h2 class="section__title section__title_align_left">Мои навыки</h2>
+      <ul class="skills__list">
+        <li class="skills__item">
+          <figcaption class="skills__description">Adobe Photoshop</figcaption>
+          <figure class="skills__graph"></figure>
+        </li>
+        <li class="skills__item">
+          <figcaption class="skills__description">Adobe Photoshop</figcaption>
+          <figure class="skills__graph"></figure>
+        </li>
+        <li class="skills__item">
+          <figcaption class="skills__description">Adobe Photoshop</figcaption>
+          <figure class="skills__graph"></figure>
+        </li>
+      </ul>
+    </div>
+    <img src="./images/photo.svg" alt="Портретное фото" class="skills__avatar">
+  </section>
 </body>
 
 </html>
