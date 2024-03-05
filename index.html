@@ -24,28 +24,27 @@
 
       <nav class="header__menu">
         <ul class="header__menu-list">
-          <li><a href="/" class="header__menu-item">ГЛАВНАЯ</a></li>
-          <li><a href="/" class="header__menu-item">ОБ АВТОРЕ</a></li>
-          <li> <a href="/" class="header__menu-item">РАБОТЫ</a></li>
-          <li> <a href="/" class="header__menu-item">ПРОЦЕСС</a></li>
-          <li> <a href="/" class="header__menu-item">КОНТАКТЫ</a></li>
+          <li><a href="#promo" class="header__menu-item">ГЛАВНАЯ</a></li>
+          <li><a href="#about-author" class="header__menu-item">ОБ АВТОРЕ</a></li>
+          <li> <a href="#projects" class="header__menu-item">РАБОТЫ</a></li>
+          <li> <a href="#process" class="header__menu-item">ПРОЦЕСС</a></li>
+          <li> <a href="#contacts" class="header__menu-item">КОНТАКТЫ</a></li>
         </ul>
       </nav>
 
     </div>
   </header>
   <main>
-    <section class="promo">
+    <section class="promo" id="promo">
       <img src="./images/frame.svg" alt="Ноутбук" class="promo__img">
       <div class="promo__wrapper">
-        <h1 class="promo__title">Дизайн и верстка</h1>
         <p class="promo__subtitle subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
           Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
         <button class="button" type="submit">НАПИСАТЬ МНЕ</button>
       </div>
     </section>
 
-    <section class="section section_bcg-white">
+    <section class="section section_bcg-white" id="about-author">
       <h2 class="section__title">Обо мне</h2>
       <p class="section__subtitle subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
         Lorem Ipsum
@@ -126,48 +125,62 @@
       <img src="./images/photo.svg" alt="Портретное фото" class="skills__avatar">
     </section>
 
-    <section class="how-work section section_bcg-grey">
+    <section class="how-work section section_bcg-grey" id="process">
       <h2 class="section__title">Как я работаю</h2>
       <p class="section__subtitle subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
         Lorem Ipsum
         является стандартной
         "рыбой" для текстов на латинице с начала XVI века.</p>
 
-      <iframe class="how-work__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
+      <!-- <iframe class="how-work__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe> -->
+      <a class="how-work__link">
+        <img src="./images/video.jpeg" alt="" class="how-work__iframe-img">
+        <img src="./images/play-button.svg" alt="" class="how-work__play-btn">
+      </a>
     </section>
 
-    <section class="grid section section_bcg-white">
+    <section class="grid" id="projects">
       <ul class="grid__list">
         <li class="grid__item">
-          <a href="/"><img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки"></a>
+          <a href="/">
+            <img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки">
+            <img src="./images/view.svg" alt="" class="grid__img-view">
+          </a>
         </li>
         <li class="grid__item">
-          <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"></a>
+          <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"><img
+              src="./images/view.svg" alt="" class="grid__img-view"></a>
         </li>
         <li class="grid__item">
-          <a href="/"><img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки"></a>
+          <a href="/"><img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки"><img src="./images/view.svg"
+              alt="" class="grid__img-view"></a>
         </li>
         <li class="grid__item">
-          <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"></a>
+          <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"><img
+              src="./images/view.svg" alt="" class="grid__img-view"></a>
         </li>
         <li class="grid__item">
-          <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"></a>
+          <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"><img
+              src="./images/view.svg" alt="" class="grid__img-view"></a>
         </li>
         <li class="grid__item">
-          <a href="/"><img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки"></a>
+          <a href="/"><img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки"><img src="./images/view.svg"
+              alt="" class="grid__img-view"></a>
         </li>
         <li class="grid__item">
-          <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"></a>
+          <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"><img
+              src="./images/view.svg" alt="" class="grid__img-view"></a>
         </li>
         <li class="grid__item">
-          <a href="/"><img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки"></a>
+          <a href="/"><img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки"><img src="./images/view.svg"
+              alt="" class="grid__img-view"></a>
         </li>
 
       </ul>
     </section>
 
 
-    <section class="want-website section section_bcg-grey">
+    <section class="want-website section section_bcg-grey" id="contacts">
       <h2 class="section__title">Хотите веб-сайт?</h2>
       <p class="section__subtitle subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
         Lorem Ipsum
@@ -183,32 +196,32 @@
         <button class="button button_size_s" type="submit">ОТПРАВИТЬ</button>
       </form>
     </section>
-
-    <footer class="footer">
-      <div class="footer__wrapper">
-        <div class="footer__autor-data">
-          <h3 class="footer__autor">Иванов Иван</h3>
-          <p class="footer__autor-year">(с) 2018. Все права защищены.</p>
-        </div>
-        <ul class="footer__soc-list">
-          <li>
-            <a class="footer__soc-list-item" href="/" target="_blank">
-              <img src="./images/vk.svg" alt="" class="footer__soc-list-img"></a>
-          </li>
-          <li>
-            <a class="footer__soc-list-item" href="/" target="_blank">
-              <img src="./images/vk.svg" alt="" class="footer__soc-list-img"></a>
-            </a>
-          </li>
-          <li>
-            <a class="footer__soc-list-item" href="/" target="_blank">
-              <img src="./images/vk.svg" alt="" class="footer__soc-list-img"></a>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </footer>
   </main>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="footer__autor-data">
+        <h3 class="footer__autor">Иванов Иван</h3>
+        <p class="footer__autor-year">(с) 2018. Все права защищены.</p>
+      </div>
+      <ul class="footer__soc-list">
+        <li>
+          <a class="footer__soc-list-item" href="/" target="_blank">
+            <img src="./images/vk.svg" alt="" class="footer__soc-list-img"></a>
+        </li>
+        <li>
+          <a class="footer__soc-list-item" href="/" target="_blank">
+            <img src="./images/vk.svg" alt="" class="footer__soc-list-img"></a>
+          </a>
+        </li>
+        <li>
+          <a class="footer__soc-list-item" href="/" target="_blank">
+            <img src="./images/vk.svg" alt="" class="footer__soc-list-img"></a>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
 </body>
 
 </html>
