@@ -15,210 +15,245 @@
 
 </head>
 
-<body class="body">
+<body>
   <header class="header ">
-    <div class="header__wrapper">
-      <a href="/" class="header__logo">
-        <img src="./images/WD.svg" alt="Логотип">
-      </a>
+    <div class="wrapper wrapper_header">
+      <div class="header__wrapper">
+        <a href="/" class="header__logo">
+          <img src="./images/WD.svg" alt="Логотип">
+        </a>
 
-      <nav class="header__menu">
-        <ul class="header__menu-list">
-          <li><a href="#promo" class="header__menu-item">ГЛАВНАЯ</a></li>
-          <li><a href="#about-author" class="header__menu-item">ОБ АВТОРЕ</a></li>
-          <li> <a href="#projects" class="header__menu-item">РАБОТЫ</a></li>
-          <li> <a href="#process" class="header__menu-item">ПРОЦЕСС</a></li>
-          <li> <a href="#contacts" class="header__menu-item">КОНТАКТЫ</a></li>
-        </ul>
-      </nav>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li><a href="#promo" class="header__menu-item">ГЛАВНАЯ</a></li>
+            <li><a href="#about-author" class="header__menu-item">ОБ АВТОРЕ</a></li>
+            <li> <a href="#projects" class="header__menu-item">РАБОТЫ</a></li>
+            <li> <a href="#process" class="header__menu-item">ПРОЦЕСС</a></li>
+            <li> <a href="#contacts" class="header__menu-item">КОНТАКТЫ</a></li>
+          </ul>
+        </nav>
 
+      </div>
     </div>
   </header>
   <main>
-    <section class="promo" id="promo">
-      <img src="./images/frame.svg" alt="Ноутбук" class="promo__img">
-      <div class="promo__wrapper">
-        <p class="promo__subtitle subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
-          Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-        <button class="button" type="submit">НАПИСАТЬ МНЕ</button>
+    <section class="section section_bcg-grey" id="promo">
+      <div class="wrapper wrapper_promo promo">
+        <img src="./images/frame.svg" alt="Ноутбук" class="promo__img">
+        <div class="promo__wrapper">
+          <h1 class="promo__title">Дизайн и верстка</h1>
+          <p class="promo__subtitle subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+            Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+          <button class="button" type="submit">НАПИСАТЬ МНЕ</button>
+        </div>
       </div>
     </section>
 
     <section class="section section_bcg-white" id="about-author">
-      <h2 class="section__title">Обо мне</h2>
-      <p class="section__subtitle subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
-        Lorem Ipsum
-        является стандартной
-        "рыбой" для текстов на латинице с начала XVI века.</p>
+      <div class="wrapper">
+        <div class="section__description">
+          <h2 class="section__title">Обо мне</h2>
+          <p class="section__subtitle subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне.
+            Lorem Ipsum
+            является стандартной
+            "рыбой" для текстов на латинице с начала XVI века.</p>
+        </div>
+      </div>
     </section>
 
-    <section class="projects section section_bcg-blue">
-      <ul class="projects__list">
-        <li class="projects__item">
-          <img src="./images/project.svg" alt="" class="projects__icon">
-          <div class="projects__description">
-            <h3 class="projects__title">40+</h3>
-            <p class="projects__subtitle">проектов</p>
-          </div>
-        </li>
-
-        <li class="projects__item">
-          <img src="./images/project.svg" alt="" class="projects__icon">
-          <div class="projects__description">
-            <h3 class="projects__title">40+</h3>
-            <p class="projects__subtitle">проектов</p>
-          </div>
-        </li>
-
-        <li class="projects__item">
-          <img src="./images/project.svg" alt="" class="projects__icon">
-          <div class="projects__description">
-            <h3 class="projects__title">40+</h3>
-            <p class="projects__subtitle">проектов</p>
-          </div>
-        </li>
-
-        <li class="projects__item">
-          <img src="./images/project.svg" alt="" class="projects__icon">
-          <div class="projects__description">
-            <h3 class="projects__title">40+</h3>
-            <p class="projects__subtitle">проектов</p>
-          </div>
-        </li>
-
-        <li class="projects__item">
-          <img src="./images/project.svg" alt="" class="projects__icon">
-          <div class="projects__description">
-            <h3 class="projects__title">40+</h3>
-            <p class="projects__subtitle">проектов</p>
-          </div>
-        </li>
-
-        <li class="projects__item">
-          <img src="./images/project.svg" alt="" class="projects__icon">
-          <div class="projects__description">
-            <h3 class="projects__title">40+</h3>
-            <p class="projects__subtitle">проектов</p>
-          </div>
-        </li>
-      </ul>
-    </section>
-
-    <section class="skills section section_bcg-white">
-      <div class="skills__wrapper">
-        <h2 class="section__title section__title_align_left">Мои навыки</h2>
-        <ul class="skills__list">
-          <li class="skills__item">
-            <figcaption class="skills__description">Adobe Photoshop</figcaption>
-            <figure class="skills__graph"></figure>
+    <section class="projects section section_bcg-blue" id="projects">
+      <div class="wrapper">
+        <ul class="projects__list">
+          <li class="projects__item">
+            <img src="./images/project.svg" alt="" class="projects__icon">
+            <div class="projects__description">
+              <h3 class="projects__title">40+</h3>
+              <p class="projects__subtitle">проектов</p>
+            </div>
           </li>
-          <li class="skills__item">
-            <figcaption class="skills__description">Adobe Photoshop</figcaption>
-            <figure class="skills__graph"></figure>
+
+          <li class="projects__item">
+            <img src="./images/project.svg" alt="" class="projects__icon">
+            <div class="projects__description">
+              <h3 class="projects__title">40+</h3>
+              <p class="projects__subtitle">проектов</p>
+            </div>
           </li>
-          <li class="skills__item">
-            <figcaption class="skills__description">Adobe Photoshop</figcaption>
-            <figure class="skills__graph"></figure>
+
+          <li class="projects__item">
+            <img src="./images/project.svg" alt="" class="projects__icon">
+            <div class="projects__description">
+              <h3 class="projects__title">40+</h3>
+              <p class="projects__subtitle">проектов</p>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <img src="./images/project.svg" alt="" class="projects__icon">
+            <div class="projects__description">
+              <h3 class="projects__title">40+</h3>
+              <p class="projects__subtitle">проектов</p>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <img src="./images/project.svg" alt="" class="projects__icon">
+            <div class="projects__description">
+              <h3 class="projects__title">40+</h3>
+              <p class="projects__subtitle">проектов</p>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <img src="./images/project.svg" alt="" class="projects__icon">
+            <div class="projects__description">
+              <h3 class="projects__title">40+</h3>
+              <p class="projects__subtitle">проектов</p>
+            </div>
           </li>
         </ul>
       </div>
-      <img src="./images/photo.svg" alt="Портретное фото" class="skills__avatar">
+    </section>
+
+    <section class=" section section_bcg-white">
+      <div class="wrapper skills">
+        <div class="skills__wrapper">
+          <h2 class="section__title section__title_align_left">Мои навыки</h2>
+          <ul class="skills__list">
+            <li class="skills__item">
+              <figcaption class="skills__description">Adobe Photoshop</figcaption>
+              <figure class="skills__graph"></figure>
+            </li>
+            <li class="skills__item">
+              <figcaption class="skills__description">Adobe Photoshop</figcaption>
+              <figure class="skills__graph"></figure>
+            </li>
+            <li class="skills__item">
+              <figcaption class="skills__description">Adobe Photoshop</figcaption>
+              <figure class="skills__graph"></figure>
+            </li>
+          </ul>
+        </div>
+        <img src="./images/photo.svg" alt="Портретное фото" class="skills__avatar">
+      </div>
     </section>
 
     <section class="how-work section section_bcg-grey" id="process">
-      <h2 class="section__title">Как я работаю</h2>
-      <p class="section__subtitle subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
-        Lorem Ipsum
-        является стандартной
-        "рыбой" для текстов на латинице с начала XVI века.</p>
-
-      <!-- <iframe class="how-work__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe> -->
-      <a class="how-work__link">
-        <img src="./images/video.jpeg" alt="" class="how-work__iframe-img">
-        <img src="./images/play-button.svg" alt="" class="how-work__play-btn">
-      </a>
+      <div class="wrapper">
+        <div class="section__description">
+          <h2 class="section__title">Как я работаю</h2>
+          <p class="section__subtitle subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне.
+            Lorem Ipsum
+            является стандартной
+            "рыбой" для текстов на латинице с начала XVI века.</p>
+        </div>
+        <!-- <iframe class="how-work__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe> -->
+        <a class="how-work__link">
+          <img src="./images/video.jpeg" alt="" class="how-work__iframe-img">
+          <img src="./images/play-button.svg" alt="" class="how-work__play-btn">
+        </a>
+      </div>
     </section>
 
-    <section class="grid" id="projects">
-      <ul class="grid__list">
-        <li class="grid__item">
-          <a href="/">
-            <img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки">
-            <img src="./images/view.svg" alt="" class="grid__img-view">
-          </a>
+    <section class="grid">
+      <ul class="grid__wrapper">
+        <li>
+          <ul class="grid__list">
+            <li class="grid__item">
+              <a href="/">
+                <img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки">
+                <img src="./images/view.svg" alt="" class="grid__img-view">
+              </a>
+            </li>
+            <li class="grid__item">
+              <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"><img
+                  src="./images/view.svg" alt="" class="grid__img-view"></a>
+            </li>
+            <li class="grid__item">
+              <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"><img
+                  src="./images/view.svg" alt="" class="grid__img-view"></a>
+            </li>
+            <li class="grid__item">
+              <a href="/"><img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки"><img
+                  src="./images/view.svg" alt="" class="grid__img-view"></a>
+            </li>
+          </ul>
         </li>
-        <li class="grid__item">
-          <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"><img
-              src="./images/view.svg" alt="" class="grid__img-view"></a>
+        <li>
+          <ul class="grid__list">
+            <li class="grid__item">
+              <a href="/">
+                <img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки">
+                <img src="./images/view.svg" alt="" class="grid__img-view">
+              </a>
+            </li>
+            <li class="grid__item">
+              <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"><img
+                  src="./images/view.svg" alt="" class="grid__img-view"></a>
+            </li>
+            <li class="grid__item">
+              <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"><img
+                  src="./images/view.svg" alt="" class="grid__img-view"></a>
+            </li>
+            <li class="grid__item">
+              <a href="/"><img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки"><img
+                  src="./images/view.svg" alt="" class="grid__img-view"></a>
+            </li>
+          </ul>
         </li>
-        <li class="grid__item">
-          <a href="/"><img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки"><img src="./images/view.svg"
-              alt="" class="grid__img-view"></a>
-        </li>
-        <li class="grid__item">
-          <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"><img
-              src="./images/view.svg" alt="" class="grid__img-view"></a>
-        </li>
-        <li class="grid__item">
-          <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"><img
-              src="./images/view.svg" alt="" class="grid__img-view"></a>
-        </li>
-        <li class="grid__item">
-          <a href="/"><img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки"><img src="./images/view.svg"
-              alt="" class="grid__img-view"></a>
-        </li>
-        <li class="grid__item">
-          <a href="/"><img class="grid__img" src="./images/rectangle 7.7.svg" alt="Записать"><img
-              src="./images/view.svg" alt="" class="grid__img-view"></a>
-        </li>
-        <li class="grid__item">
-          <a href="/"><img class="grid__img" src="./images/rectangle 7.svg" alt="Заметки"><img src="./images/view.svg"
-              alt="" class="grid__img-view"></a>
-        </li>
-
       </ul>
+
     </section>
 
 
     <section class="want-website section section_bcg-grey" id="contacts">
-      <h2 class="section__title">Хотите веб-сайт?</h2>
-      <p class="section__subtitle subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
-        Lorem Ipsum
-        является стандартной
-        "рыбой" для текстов на латинице с начала XVI века.</p>
+      <div class="wrapper">
+        <div class="section__description">
+          <h2 class="section__title">Хотите веб-сайт?</h2>
+          <p class="section__subtitle subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне.
+            Lorem Ipsum
+            является стандартной
+            "рыбой" для текстов на латинице с начала XVI века.</p>
+        </div>
 
-      <form action="#" class="form">
-        <fieldset class="form__inputs">
-          <input type="text" class="form__input" placeholder="Ваше имя">
-          <input type="email" class="form__input" placeholder="Ваш e-mail">
-        </fieldset>
-        <textarea class="form__textarea" name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
-        <button class="button button_size_s" type="submit">ОТПРАВИТЬ</button>
-      </form>
+        <form action="#" class="form">
+          <fieldset class="form__inputs">
+            <input type="text" class="form__input" placeholder="Ваше имя">
+            <input type="email" class="form__input" placeholder="Ваш e-mail">
+          </fieldset>
+          <textarea class="form__textarea" name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+          <button class="button button_size_s" type="submit">ОТПРАВИТЬ</button>
+        </form>
+      </div>
     </section>
   </main>
   <footer class="footer">
-    <div class="footer__wrapper">
-      <div class="footer__autor-data">
-        <h3 class="footer__autor">Иванов Иван</h3>
-        <p class="footer__autor-year">(с) 2018. Все права защищены.</p>
+    <div class="wrapper wrapper_footer">
+      <div class="footer__wrapper">
+        <div class="footer__author-data">
+          <h3 class="footer__author">Иванов Иван</h3>
+          <p class="footer__author-year">(с) 2018. Все права защищены.</p>
+        </div>
+        <ul class="footer__soc-list">
+          <li>
+            <a class="footer__soc-list-item" href="/" target="_blank">
+              <img src="./images/vk.svg" alt="" class="footer__soc-list-img"></a>
+          </li>
+          <li>
+            <a class="footer__soc-list-item" href="/" target="_blank">
+              <img src="./images/vk.svg" alt="" class="footer__soc-list-img"></a>
+            </a>
+          </li>
+          <li>
+            <a class="footer__soc-list-item" href="/" target="_blank">
+              <img src="./images/vk.svg" alt="" class="footer__soc-list-img"></a>
+            </a>
+          </li>
+        </ul>
       </div>
-      <ul class="footer__soc-list">
-        <li>
-          <a class="footer__soc-list-item" href="/" target="_blank">
-            <img src="./images/vk.svg" alt="" class="footer__soc-list-img"></a>
-        </li>
-        <li>
-          <a class="footer__soc-list-item" href="/" target="_blank">
-            <img src="./images/vk.svg" alt="" class="footer__soc-list-img"></a>
-          </a>
-        </li>
-        <li>
-          <a class="footer__soc-list-item" href="/" target="_blank">
-            <img src="./images/vk.svg" alt="" class="footer__soc-list-img"></a>
-          </a>
-        </li>
-      </ul>
     </div>
   </footer>
 
